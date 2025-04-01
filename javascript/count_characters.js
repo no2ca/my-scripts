@@ -1,0 +1,1 @@
+javascript:(function(){w=window;d=document;q=w.getSelection?w.getSelection().toString():d.getSelection?d.getSelection():d.selection?d.selection.createRange().text:'';if(q)alert(q.length)})()
