@@ -1,0 +1,1 @@
+javascript:(function(){var title=document.title.replace(/\[|\]/g,"");var url=location.href;var userTitle=prompt("コピーするタイトルを確認・編集してください:",title);if(userTitle!==null){navigator.clipboard.writeText(`[${userTitle} ${url}]`).catch(function(err){alert("クリップボードにコピーできませんでした。エラー: "+err);});}})();
