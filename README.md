@@ -4,7 +4,7 @@
 
 ## 含まれるスクリプト
 
-### JavaScriptブックマークレット
+### JavaScript
 
 #### 文字数カウンター (`count_characters.js`)
 
@@ -20,10 +20,10 @@
 
 #### MarkdownからScrapbox形式への変換スクリプト (`convertMarkdownToScrapbox.js`)
 
-Markdown形式のテキストをScrapbox形式に変換します。以下の機能をサポートしています：
-- コードブロックの変換（言語指定付き）
+逐次的な正規表現置換によってMarkdown形式のテキストをScrapbox形式に変換します。以下の機能があります：
+- コードブロックの変換
 - 見出しの変換
-- 箇条書きの変換（ネスト対応）
+- 箇条書きの変換
 - リンクの変換
 - 強調記法の削除
 - 水平線の削除
